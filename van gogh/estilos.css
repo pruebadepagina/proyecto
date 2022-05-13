@@ -1,0 +1,43 @@
+body{
+    background:#AED6F1;
+    color:#273746;
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+.header{
+    background:#74a7ca;
+    color: white;
+    padding: 0.3rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.header a{
+    color:black;
+    text–decoration: none;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+display: inline-block;
+ padding: 0.5rem 1rem;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.1s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+background: #ccc;
+}
+body{
+    background:#AED6F1;
+    color:#273746;
+}

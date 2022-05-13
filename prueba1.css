@@ -1,0 +1,109 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+.header{
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+.navigation  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+        display: inline-block;
+        padding: 0.5rem 1rem;
+    }
+        .navigation ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.1s linear;
+            border-radius: 5px;
+        }
+            .navigation ul li a:hover{
+                background: #ccc;
+            }
+            
+            .sub{
+                position: absolute;
+                background: #333333;
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.5s;
+            }
+            .sub li a{
+                display: block;
+                padding: 15px;
+                color: #ffff;
+                font-family: "Open sans";
+                text-decoration: none;
+            }
+            .navigation li:hover .sub{
+                visibility: visible;
+                opacity: 1;
+            }
+            .option{
+                position: absolute;
+                background: #333333;
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.5s;
+            }
+            .option li a{
+                display: block;
+                padding: 15px;
+                color: #ffff;
+                font-family: "Open sans";
+                text-decoration: none;
+            }
+            .navigation li:hover .option{
+                visibility: visible;
+                opacity: 1;
+            }
+.main{
+    padding-top: 12rem;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}     
+.navigation li a:hover{
+    background: white;
+    transition: all 0.1s;
+}
+.contenedor1{
+    background: rgb(211, 211, 170);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
+}
+@media only screen and (max-width: 767px){
+
+}       

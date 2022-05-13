@@ -1,0 +1,37 @@
+.header{
+    background: #333;
+    color: white;
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;    
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.navigation  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li{
+        display: inline-block;
+        padding: 0.5rem 1rem;
+    }
+        .navigation ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.1s linear;
+            border-radius: 5px;
+        }
+            .navigation ul li a:hover{
+                background: #ccc;
+            }
+p{
+    font-size: 20px;
+}     
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}       

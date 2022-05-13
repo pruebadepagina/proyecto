@@ -1,0 +1,29 @@
+body{ 
+    background: rgb(174, 230, 249);
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .titulo{
+        color: black;
+        text-align: center;
+    }
+    .contenedor-galeria{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+    
+    }
+    .galeria__img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 30px;
+        object-fit: contain;
+        filter: brightness(75%);
+    }
+    .galeria__img:hover{
+        filter: brightness(100%);
+    }
