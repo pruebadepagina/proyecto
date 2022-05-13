@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background:#37e1e7;
+}
+p{
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+    margin: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
