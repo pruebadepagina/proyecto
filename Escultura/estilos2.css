@@ -1,0 +1,29 @@
+*{
+    margin: 20px auto;
+    padding: 0;
+    background: #7cc0d9;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+p{
+    font-size: 25px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+img{
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+}
